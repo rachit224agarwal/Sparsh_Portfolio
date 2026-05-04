@@ -13,6 +13,12 @@ This project is designed as a personal portfolio for academic and professional p
 - Certifications and achievements
 - Contact section with a terminal-style interaction panel
 
+## Live Demo
+
+- AWS S3 Hosted Portfolio: http://sparsh-portfolio.s3-website.eu-north-1.amazonaws.com/
+
+Note: This live deployment may be removed in the future to avoid unnecessary AWS billing charges. If the link is unavailable, the full source code and project assets are still available in this repository.
+
 ## Tech Stack
 
 - Vite
@@ -89,5 +95,17 @@ npm run preview
 └── README.md
 ```
 
+## How To Showcase On GitHub
+
+Push this repository to GitHub and include:
+
+- This README
+- A few screenshots of the portfolio
+- A short note describing the AWS S3 hosting idea
+- The live demo link: http://sparsh-portfolio.s3-website.eu-north-1.amazonaws.com/
+
+Suggested presentation line:
+
+`I built this portfolio as a responsive React application and planned AWS S3 for static hosting and resume asset storage.`
 
 
