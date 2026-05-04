@@ -95,17 +95,6 @@ npm run preview
 └── README.md
 ```
 
-## How To Showcase On GitHub
 
-Push this repository to GitHub and include:
-
-- This README
-- A few screenshots of the portfolio
-- A short note describing the AWS S3 hosting idea
-- The live demo link: http://sparsh-portfolio.s3-website.eu-north-1.amazonaws.com/
-
-Suggested presentation line:
-
-`I built this portfolio as a responsive React application and planned AWS S3 for static hosting and resume asset storage.`
 
 
