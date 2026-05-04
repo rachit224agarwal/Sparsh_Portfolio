@@ -61,7 +61,8 @@ const terminalHelp = [
   "linkedin - open LinkedIn profile",
   "github - open GitHub profile",
   "email - draft an email",
-  "resume - jump to education section",
+  "resume - download resume PDF",
+  "education - jump to education section",
   "projects - jump to projects section",
 ];
 
@@ -107,6 +108,10 @@ function TerminalContact() {
           "mailto:sparshagarwal.dev@gmail.com?subject=Portfolio%20Inquiry&body=Hi%20Sparsh%2C%20I%20wanted%20to%20reach%20out%20regarding%20your%20portfolio.",
       },
       resume: {
+        lines: ["Downloading resume PDF..."],
+        href: "/SPARSH_AGARWAL_CV.pdf",
+      },
+      education: {
         lines: ["Jumping to education section..."],
         href: "#education",
       },
@@ -180,7 +185,7 @@ function TerminalContact() {
           <input
             value={input}
             onChange={(event) => setInput(event.target.value)}
-            placeholder="Type help, linkedin, email..."
+            placeholder="Type help, resume, linkedin..."
             className="w-full bg-transparent px-3 py-3 font-mono text-sm text-white outline-none placeholder:text-slate-500"
           />
         </div>
@@ -248,6 +253,13 @@ function App() {
                 className="rounded-full bg-slate-900 px-6 py-3 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-slate-800"
               >
                 View Projects
+              </a>
+              <a
+                href="/SPARSH_AGARWAL_CV.pdf"
+                download
+                className="rounded-full border border-slate-900 px-6 py-3 text-sm font-semibold text-slate-900 transition hover:-translate-y-0.5 hover:bg-slate-900 hover:text-white"
+              >
+                Download Resume
               </a>
               <a
                 href="#contact"
@@ -469,12 +481,22 @@ function App() {
               </h2>
               <p className="mt-4 leading-7 text-slate-600">
                 Use the terminal on the right if you want a playful interaction.
-                It can open LinkedIn, GitHub, email, or jump to key sections.
+                It can open LinkedIn, GitHub, email, download your resume, or
+                jump to key sections.
               </p>
               <div className="mt-8 space-y-3 text-sm text-slate-600">
                 <p>
-                  LinkedIn:
-                  {" "}
+                  Resume:{" "}
+                  <a
+                    href="/SPARSH_AGARWAL_CV.pdf"
+                    download
+                    className="font-medium text-slate-900 underline decoration-amber-700/50 underline-offset-4"
+                  >
+                    Download CV
+                  </a>
+                </p>
+                <p>
+                  LinkedIn:{" "}
                   <a
                     href="https://www.linkedin.com/in/sparsh-agarwal-b8a5712a1/"
                     target="_blank"
@@ -485,8 +507,7 @@ function App() {
                   </a>
                 </p>
                 <p>
-                  GitHub:
-                  {" "}
+                  GitHub:{" "}
                   <a
                     href="https://github.com"
                     target="_blank"
@@ -497,8 +518,7 @@ function App() {
                   </a>
                 </p>
                 <p>
-                  Email:
-                  {" "}
+                  Email:{" "}
                   <a
                     href="mailto:sparshagarwal.dev@gmail.com"
                     className="font-medium text-slate-900 underline decoration-amber-700/50 underline-offset-4"

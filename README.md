@@ -1,14 +1,17 @@
-# Sparsh Portfolio
+# Sparsh Agarwal Portfolio
 
-A simple single-page portfolio website built with Vite, React, and Tailwind CSS.
+Single-page portfolio website built with Vite, React, and Tailwind CSS to showcase education, projects, certifications, achievements, and a simple cloud-hosting direction.
 
-## Features
+## Overview
 
-- Responsive single-page portfolio layout
-- Clean modern dark theme
-- Smooth scrolling navigation
-- Simple fade-in animations
-- Sections for hero, objective, education, projects, certifications, achievements, and footer links
+This project is designed as a personal portfolio for academic and professional presentation. It includes:
+
+- Hero section with introduction and resume download
+- Career objective
+- Education section
+- Project cards
+- Certifications and achievements
+- Contact section with a terminal-style interaction panel
 
 ## Tech Stack
 
@@ -16,27 +19,50 @@ A simple single-page portfolio website built with Vite, React, and Tailwind CSS.
 - React
 - Tailwind CSS
 
+## AWS Showcase Idea
+
+This portfolio pairs well with simple AWS services:
+
+- `Amazon S3` for storing static assets such as the resume PDF and project screenshots
+- `Amazon S3 Static Website Hosting` for hosting the built portfolio
+
+Optional upgrade:
+
+- `Amazon CloudFront` for CDN delivery of the S3-hosted website and assets
+
+Teacher-friendly explanation:
+
+`This portfolio was built using React, Vite, and Tailwind CSS. AWS S3 can be used to host the static website and store assets such as the resume PDF and screenshots.`
+
+## Resume
+
+The resume file is included in:
+
+- `public/SPARSH_AGARWAL_CV.pdf`
+
+The website includes a direct download button for it.
+
 ## Getting Started
 
-1. Install dependencies:
+1. Install dependencies
 
 ```bash
 npm install
 ```
 
-2. Start the development server:
+2. Start the development server
 
 ```bash
 npm run dev
 ```
 
-3. Build for production:
+3. Create a production build
 
 ```bash
 npm run build
 ```
 
-4. Preview the production build:
+4. Preview the production build locally
 
 ```bash
 npm run preview
@@ -44,10 +70,34 @@ npm run preview
 
 ## Scripts
 
-- `npm run dev` - Start the Vite dev server
-- `npm run build` - Create a production build
-- `npm run preview` - Preview the production build locally
+- `npm run dev` starts the Vite development server
+- `npm run build` creates the production build
+- `npm run preview` previews the production build locally
 
-## Customize Links
+## Project Structure
 
-Update the LinkedIn and GitHub URLs in `src/App.jsx` with your actual profile links.
+```text
+.
+├── public/
+│   └── SPARSH_AGARWAL_CV.pdf
+├── src/
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+└── README.md
+```
+
+## How To Showcase On GitHub
+
+Push this repository to GitHub and include:
+
+- This README
+- A few screenshots of the portfolio
+- A short note describing the AWS S3 hosting idea
+- A live demo link if you deploy it
+
+Suggested presentation line:
+
+`I built this portfolio as a responsive React application and planned AWS S3 for static hosting and resume asset storage.`
