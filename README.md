@@ -30,7 +30,7 @@ Optional upgrade:
 
 - `Amazon CloudFront` for CDN delivery of the S3-hosted website and assets
 
-Teacher-friendly explanation:
+Explanation:
 
 `This portfolio was built using React, Vite, and Tailwind CSS. AWS S3 can be used to host the static website and store assets such as the resume PDF and screenshots.`
 
@@ -89,15 +89,5 @@ npm run preview
 └── README.md
 ```
 
-## How To Showcase On GitHub
 
-Push this repository to GitHub and include:
 
-- This README
-- A few screenshots of the portfolio
-- A short note describing the AWS S3 hosting idea
-- A live demo link if you deploy it
-
-Suggested presentation line:
-
-`I built this portfolio as a responsive React application and planned AWS S3 for static hosting and resume asset storage.`
