@@ -100,12 +100,12 @@ function TerminalContact() {
       },
       github: {
         lines: ["Opening GitHub profile..."],
-        href: "https://github.com",
+        href: "https://github.com/sparshagarwal023-lgtm",
       },
       email: {
         lines: ["Preparing email draft..."],
         href:
-          "mailto:sparshagarwal.dev@gmail.com?subject=Portfolio%20Inquiry&body=Hi%20Sparsh%2C%20I%20wanted%20to%20reach%20out%20regarding%20your%20portfolio.",
+          "mailto:sparshagarwal023@gmail.com?subject=Portfolio%20Inquiry&body=Hi%20Sparsh%2C%20I%20wanted%20to%20reach%20out%20regarding%20your%20portfolio.",
       },
       resume: {
         lines: ["Downloading resume PDF..."],
@@ -509,21 +509,21 @@ function App() {
                 <p>
                   GitHub:{" "}
                   <a
-                    href="https://github.com"
+                    href="https://github.com/sparshagarwal023-lgtm"
                     target="_blank"
                     rel="noreferrer"
                     className="font-medium text-slate-900 underline decoration-amber-700/50 underline-offset-4"
                   >
-                    github.com
+                    sparshagarwal023-lgtm
                   </a>
                 </p>
                 <p>
                   Email:{" "}
                   <a
-                    href="mailto:sparshagarwal.dev@gmail.com"
+                    href="mailto:sparshagarwal023@gmail.com"
                     className="font-medium text-slate-900 underline decoration-amber-700/50 underline-offset-4"
                   >
-                    sparshagarwal.dev@gmail.com
+                    sparshagarwal023@gmail.com
                   </a>
                 </p>
               </div>
@@ -552,7 +552,7 @@ function App() {
               LinkedIn
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/sparshagarwal023-lgtm"
               target="_blank"
               rel="noreferrer"
               className="transition hover:text-amber-700"
