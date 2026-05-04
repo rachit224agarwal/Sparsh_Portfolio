@@ -16,6 +16,7 @@ This project is designed as a personal portfolio for academic and professional p
 ## Live Demo
 
 - AWS S3 Hosted Portfolio: http://sparsh-portfolio.s3-website.eu-north-1.amazonaws.com/
+- Vercel Hosted Portfolio: https://sparsh-portfolio-zeta.vercel.app/
 
 Note: This live deployment may be removed in the future to avoid unnecessary AWS billing charges. If the link is unavailable, the full source code and project assets are still available in this repository.
 
