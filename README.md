@@ -19,6 +19,40 @@ This project is designed as a personal portfolio for academic and professional p
 
 Note: This live deployment may be removed in the future to avoid unnecessary AWS billing charges. If the link is unavailable, the full source code and project assets are still available in this repository.
 
+## References
+
+### Portfolio Screenshots
+
+#### Home Section
+
+![Portfolio home section](public/screenshots/portfolio-home.png)
+
+#### Objective and Education Section
+
+![Portfolio objective and education section](public/screenshots/portfolio-objective-education.png)
+
+#### Projects Section
+
+![Portfolio projects section](public/screenshots/portfolio-projects.png)
+
+#### Certifications, Achievements, and Contact Section
+
+![Portfolio contact section](public/screenshots/portfolio-contact.png)
+
+### AWS S3 Console Screenshots
+
+#### Bucket Objects
+
+![AWS S3 bucket objects](public/screenshots/aws-s3-bucket-objects.png)
+
+#### Static Website Hosting
+
+![AWS S3 static website hosting](public/screenshots/aws-s3-static-hosting.png)
+
+#### Bucket Policy
+
+![AWS S3 bucket policy](public/screenshots/aws-s3-bucket-policy.png)
+
 ## Tech Stack
 
 - Vite
@@ -85,6 +119,14 @@ npm run preview
 ```text
 .
 ├── public/
+│   ├── screenshots/
+│   │   ├── aws-s3-bucket-objects.png
+│   │   ├── aws-s3-bucket-policy.png
+│   │   ├── aws-s3-static-hosting.png
+│   │   ├── portfolio-contact.png
+│   │   ├── portfolio-home.png
+│   │   ├── portfolio-objective-education.png
+│   │   └── portfolio-projects.png
 │   └── SPARSH_AGARWAL_CV.pdf
 ├── src/
 │   ├── App.jsx
@@ -94,7 +136,6 @@ npm run preview
 ├── package.json
 └── README.md
 ```
-
 
 
 
